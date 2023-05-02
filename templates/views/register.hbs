@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <nav>
+             <li> <a href="/">HOME</a> </li>
+        <li>ABOUT</li>
+      
+        <li > <a href="/register"> REGISTER</a></li>
+        <li> <a href="/login">  LOGIN </a></li>
+
+        {{!-- <li> <a href="/stlogin"> STUDENT PORTAL </a></li> --}}
+
+        <li>CONTACT US</li>
+       
+    </nav>
+    <div id="contact">
+        <div class="container">
+            <div class="form">
+                <form action="/register" method="post">
+                                    <a name="contact"></a>
+                <h1> Contact Me</h1>
+                <br>
+                <div class="formheading">
+                <i>ENTER YOUR FIRST-NAME :</i><br>
+                <input type="text" size="80" placeholder="name" value="" name ="firstname" height="200px">
+            </div>
+            <br>
+            <div class="formheading">
+                <i>ENTER YOUR LAST-NAME</i><br>
+                <input type="text" size="80" placeholder="user-name" value="" name ="lastname">
+            </div>
+            <br>
+            <div class="formheading">
+                <i>ENTER YOUR EMAIL-ID</i><br>
+                <input type="text" size="80" placeholder="@gmail.com" value="" name ="emailid">
+            </div>
+            <br>
+            <div class="formheading">
+                <i>ENTER YOUR USERNAME</i><br>
+                <input type="text" size="80" placeholder="user-name"value="" name ="username"> 
+            </div>
+            <br>
+            
+             <br>
+            
+            <div class="formheading">
+                <i>ENTER YOUR PHONE NO</i><br>
+                <input type="text" size="80" value="" name ="phone">
+            </div>
+
+          
+            <br>
+            <div class="formheading">
+                <i>GENDER</i><br>
+                <input type="radio" value="male" value="male" name ="gender">male</input><br>
+                <input type="radio" value="female" value="female" name ="gender">female</input>
+            </div>
+            <br>
+            <div class="formheading">
+                <i>ENTER YOUR ADDRESS</i><br>
+                <input type="text" size="80" placeholder="text" height="200px" value="" name ="address">            </div>
+            <br>
+            <!-- <div class="formheading">
+                <i>YOUR ADDRESS</i><br>
+                <select name="address">
+                  <option>NORTH INDIA</option>
+                  <option>EAST INDIA</option>
+                  <option>SOUTH INDIA</option>
+                  <option>WEST INDIA</option>
+                </select>
+            </div> -->
+
+              <div class="formheading">
+                <i>ENTER YOUR PASSWORD</i><br>
+                <input type="password" size="80" value="" name ="password">
+            </div>
+             <br>
+            
+            <div class="formheading">
+                <i>CONFIRM YOUR PASSWORD</i><br>
+                <input type="password" size="80" value="" name ="confirmpassword">
+            </div>
+            <br>
+            <div class="formheading">
+                <input type="reset" class="button" value="RESET"> <br>
+                <input type="submit" class="button" value="register">
+            </div>
+            </div>
+        </form>
+        </div>
+      </div>
+      <!-- ************** -->
+
+      <footer>
+        <div class="footer-content">
+            <h3>Foolish Developer</h3>
+            <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Foolish Developer</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</body>
+</html>
